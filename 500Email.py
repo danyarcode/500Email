@@ -108,7 +108,7 @@ def owner():
 		wwe = w.strip()
 		new_api = "https://dangersyumyum.000webhostapp.com/api.php?email={}".format(wwe)
 		t = requests.get(new_api).text
-		print(t)
+		
 		if "DIE" in t:
 			die+=1
 			os.system("clear")
