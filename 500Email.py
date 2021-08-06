@@ -55,7 +55,7 @@ def make_email():
 	name = input("[!] Name :")
 	txt = "1234567890011"
 	ft = open("Email.txt","w")
-	for wwwe in range(1000):
+	for wwwe in range(1500):
 		x1 = random.choice(txt)
 		x2 = random.choice(txt)
 		x3 = random.choice(txt)
