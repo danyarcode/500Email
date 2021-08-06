@@ -104,7 +104,7 @@ def owner():
 	import datetime
 	tnt = open("Email.txt","r").readlines()
 	for w in tnt:
-		time.sleep(1)
+		time.sleep(8)
 		wwe = w.strip()
 		new_api = "https://dangersyumyum.000webhostapp.com/api.php?email={}".format(wwe)
 		t = requests.get(new_api).text
