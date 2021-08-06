@@ -160,7 +160,7 @@ def instagram():
 	
 	p=generate_user_agent()
 	os.system("clear")
-	hub = open("Email2.txt","r").readlines()
+	hub = open("Email.txt","r").readlines()
 	hyb = open("Email3.txt","w")
 	kotay=0
 	axer=0
